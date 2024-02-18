@@ -2,8 +2,9 @@
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import { SetStateAction, useState } from "react";
-import { saveAs } from 'file-saver';
+import * as fileSaver from 'file-saver';
 import FAQ from "@/components/FAQ/FAQ";
+import saveAs from "file-saver";
 export default function Page(){
     const [prompt,setPrompt] = useState("reflect.me")
     const [size,setSize] = useState("300");
