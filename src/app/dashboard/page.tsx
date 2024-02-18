@@ -21,7 +21,7 @@ export default function Page(){
         setFormat(e.target.value)
     }
     const [imageUrl,setImageUrl] = useState('')
-    const handleUrl = (e: { target: { src: SetStateAction<string>; }; })=>{
+    const handleUrl = (e:any)=>{
         const newUrl = e.target.src;
         setImageUrl(newUrl);
     }
