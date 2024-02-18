@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
       <h1 className="text-center mt-20 xl:mt-40 text-3xl px-5 font-semibold xl:text-4xl">Your digital doppelganger 🤖</h1>
       <p className="text-center text-sm w-9/12 xl:w-full xl:text-lg xl:ml-0 text-slate-500 ml-10 mt-5">Crafting personalized robo avatars from your unique prompts</p>
-    <Link href={'/dashboard'}><button className=' bg-black text-white flex mt-10 mx-auto shadow-lg shadow-blue-200 py-2 px-5 rounded-md'>Create my avatar</button></Link> 
+    <button className=' bg-black text-white flex mt-10 mx-auto shadow-lg shadow-blue-200 py-2 px-5 rounded-md'>Coming Soon! </button>
 
     <video className="mx-auto my-20  rounded-xl border-gray-300 shadow-2xl shadow-gray-200  w-[340px]  xl:w-[800px]" controls={true} autoPlay={true} loop={true}>
       <source src="/howtouse.mp4" type="video/mp4" />
