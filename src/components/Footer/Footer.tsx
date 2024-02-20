@@ -11,6 +11,7 @@ export default function Footer(){
         <a className="text-white text-3xl" href="https://x.com/tushar20jain?t=4v8kwrzc5lbp6ahsrdzgng&s=09"><FaSquareXTwitter /></a>
         <a className="text-white text-3xl" href="https://www.producthunt.com/@tushar_jain13"><FaProductHunt /></a>
     </div>
+    <p className="mt-6 text-sm">Robots lovingly delivered by Robohash.org</p>
     <p className="mt-5 text-sm">deployed on <span className="text-red-500"><a href="https://vercel.com/"><b><u>Vercel</u></b></a></span> </p>
 </footer>
         </>
