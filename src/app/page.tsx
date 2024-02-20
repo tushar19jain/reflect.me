@@ -11,11 +11,7 @@ export default function Home() {
       <a href="https://www.producthunt.com/posts/reflect-me?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-reflect&#0045;me" target="_blank"><img className="mx-auto mt-20" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=440262&theme=neutral" alt="Reflect&#0046;me - Crafting&#0032;personalized&#0032;robo&#0032;avatars&#0032;from&#0032;your&#0032;unique&#0032;prompts | Product Hunt" /></a>
       <h1 className="text-center mt-20 xl:mt-40 text-3xl px-5 font-semibold xl:text-4xl">Your digital doppelganger 🤖</h1>
       <p className="text-center text-sm w-9/12 xl:w-full xl:text-lg xl:ml-0 text-slate-500 ml-10 mt-5">Crafting personalized robo avatars from your unique prompts</p>
-<<<<<<< HEAD
     <button className=' bg-black text-white flex mt-10 mx-auto shadow-lg shadow-blue-200 py-2 px-5 rounded-md'>Coming on 21st Feb</button> 
-=======
-    <button className=' bg-black text-white flex mt-10 mx-auto shadow-lg shadow-blue-200 py-2 px-5 rounded-md'>Coming Soon! </button>
->>>>>>> d36c562afd4fb64f593ca3588b954f568bb3dbe1
 
     <video className="mx-auto my-20  rounded-xl border-gray-300 shadow-2xl shadow-gray-200  w-[340px]  xl:w-[800px]" controls={true} autoPlay={true} loop={true}>
       <source src="/howtouse.mp4" type="video/mp4" />

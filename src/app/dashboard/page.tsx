@@ -61,7 +61,7 @@ export default function Page(){
                  <b><p>Set up your robo😉</p></b>
                     <input onChange={handlePrompt}className="px-2 py-2 border text-sm"placeholder="Tell about yourself : Name, Work etc"></input>
                     <p>Size of robo :<b>{size}x{size}</b></p>
-                    <input onChange={handleSize} type="range" min={300} max={700} name="" id="" />
+                    <input onChange={handleSize} type="range" min={100} max={500} name="" id="" />
                     <p>Set background : </p>
                     <div className="flex flex-col gap-3 xl:gap-0 xl:flex-row xl:justify-between text-sm">
                     <div className="flex gap-5">
